@@ -20,6 +20,7 @@ body {
     color: var(--color-on-surface);
     background-color: var(--color-background);
     line-height: 1.7;
+    overflow-x: hidden;
 }
 
 html {
@@ -28,7 +29,6 @@ html {
 
 .wrapper {
     display: grid;
-    text-align: center;
     height: 100vh;
     margin: 0 auto;
     grid-template-columns: repeat(12, 1fr);
@@ -75,7 +75,107 @@ html {
     background-color: var(--color-download);
 }
 
+.row-about {
+    margin-top: 35px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.link-about {
+    position: absolute;
+    top: 230px;
+    right: 600px;
+}
+
+.title-about {
+    font-family: var(--f-title);
+    font-size: 70px;
+}
+
+.description-about {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .profile-pic {
     width: 100%;
     height: auto;
+}
+
+.title-experience {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.experience hr {
+    margin-top: 230px;
+}
+
+.description-experience {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link-experience {
+    position: absolute;
+    top: 550px;
+    left: 485px;
+}
+
+.row-project {
+    margin-top: 35px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.title-project {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project hr {
+    margin-top: 230px;
+}
+
+.description-project {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link-project {
+    position: absolute;
+    top: 550px;
+    left: 1050px;
+}
+
+
+.contact {
+    position: relative;
+}
+
+.row-contact {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.title-contact {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.row-cv {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.title-cv {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.link {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
